@@ -346,6 +346,21 @@ a{
   color: #999999;
 }
 
+.content .content-body .card  .core button{
+  display: block;
+  margin: 20px 50px 0 auto;
+  padding: 10px 20px;
+  background-color: var(--blue-color);
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+  transition: 0.4s;
+}
+.content .content-body .card  .core button:hover{
+  background-color: var(--blue-alt-color);
+}
+
 /* End content-body */
 
 /* End Dashbord Content */
