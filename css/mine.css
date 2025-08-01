@@ -361,6 +361,12 @@ a{
   background-color: var(--blue-alt-color);
 }
 
+@media (max-width:768px) {
+  .content .content-body .card  .core button{
+    margin: 20px auto 0;
+  }
+}
+
 /* End content-body */
 
 /* End Dashbord Content */
