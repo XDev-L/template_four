@@ -257,7 +257,8 @@ a{
 .content .content-body {
   padding: 30px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+  gap: 10px;
 }
 @media (max-width:768px) {
   .content .content-body{
@@ -269,6 +270,7 @@ a{
   border-radius: 9px;
   overflow: hidden;
   box-shadow: 0 0 5px #ddd;
+  background-color: white;
 }
 .content .content-body .card .top{
   display: flex;
@@ -317,13 +319,12 @@ a{
 }
 .content .content-body .card .core{
   padding: 50px 0;
-  background-color: white;
 }
 .content .content-body .card  .core .info{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 160px;
+  gap: 30px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   padding: 20px;
@@ -366,6 +367,48 @@ a{
     margin: 20px auto 0;
   }
 }
+
+/* Start Card 2(Quick draft) */
+.content .content-body .card:nth-of-type(2){
+  background-color: white;
+}
+.content .content-body .card:nth-of-type(2) .top{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+}
+.content .content-body .card:nth-of-type(2) .top h3{
+  margin-bottom: 10px;
+}
+.content .content-body .card:nth-of-type(2) .core{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.content .content-body .card:nth-of-type(2) .core input,
+.content .content-body .card:nth-of-type(2) .core textarea{
+  width: 80%;
+  background-color: #99999925;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  border-radius: 6px;
+}
+.content .content-body .card:nth-of-type(2) .core input{
+  height: 30px;
+  margin-bottom: 20px;
+}
+.content .content-body .card:nth-of-type(2) .core textarea{
+  height: 120px;
+  padding-top: 10px;
+}
+
+/* End Card 2(Quick draft) */
 
 /* End content-body */
 
