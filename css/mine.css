@@ -597,6 +597,42 @@ a{
 }
 /* End Card 4 */
 
+/* Start Card 5 */
+.content .content-body .card:nth-of-type(5) .core{
+}
+.content .content-body .card:nth-of-type(5) .core .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width:768px) {
+.content .content-body .card:nth-of-type(5) .core .row{
+ flex-direction: column;
+ margin-bottom: 20px;
+ text-align: center;
+}
+}
+.content .content-body .card:nth-of-type(5) .core .row .image{
+  width: 100px;
+}
+.content .content-body .card:nth-of-type(5) .core .row .image img{
+  width: 100%;
+}
+.content .content-body .card:nth-of-type(5) .core .row .info{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: flex-start;
+}
+.content .content-body .card:nth-of-type(5) .core .row .info h3{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.content .content-body .card:nth-of-type(5) .core .row .info p{
+  color: #999;
+}
+/* End Card 5 */
+
 /* End content-body */
 
 /* End Dashbord Content */
