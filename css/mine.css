@@ -411,6 +411,140 @@ a{
 /* End Card 2(Quick draft) */
 
 /* Start Card 3(Yearly Target) */
+.content .content-body .card:nth-of-type(3) .top{
+  background-color: white;
+}
+.content .content-body .card:nth-of-type(3) .core{
+  padding: 20px;
+} 
+.content .content-body .card:nth-of-type(3) .core .row{
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .content-body .card:nth-of-type(3) .core .row .image{
+  margin-right: 20px;
+  padding: 30px;
+}
+.content .content-body .card:nth-of-type(3) .core .orange .image{
+  background-color: rgb(245 158 11 / 20%);
+  color: var(--orange-color);
+}
+.content .content-body .card:nth-of-type(3) .core .blue .image{
+  background-color: rgb(0 117 255 / 20%);
+  color: var(--blue-color);
+}
+.content .content-body .card:nth-of-type(3) .core .green .image{
+  background-color: rgb(34 197 94 / 20%);
+  color: var(--green-color);
+}
+.content .content-body .card:nth-of-type(3) .core .row .text{flex: 1;}
+.content .content-body .card:nth-of-type(3) .core .row .text p{
+  color: lightgrey;
+  margin-bottom: 10px;
+}
+.content .content-body .card:nth-of-type(3) .core .row .text >span{
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+.content .content-body .card:nth-of-type(3) .core .row .text .progress .progress-bar{
+  position: relative;
+}
+.content .content-body .card:nth-of-type(3) .core .row .text .progress span{
+  position: absolute;
+}
+
+.content .content-body .card:nth-of-type(3) .core .blue .text .progress{
+  background-color: rgb(0 117 255 / 20%);
+  height: 4px;
+}
+.content .content-body .card:nth-of-type(3) .core .blue .text .progress .progress-bar{
+  background-color: var(--blue-color);
+  width: 80%;
+  height: 4px;
+}
+
+.content .content-body .card:nth-of-type(3) .core .blue .text .progress  span{
+  padding: 1px 3px;
+  border-radius: 5px;
+  background-color: var(--blue-color);
+  color: white;
+  top:-38px;
+  right: -20px;
+}
+.content .content-body .card:nth-of-type(3) .core .blue .text .progress  span::before{
+  position: absolute;
+  content: '';
+  top:19px;
+  right: 12px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: var(--blue-color) transparent transparent transparent;
+}
+
+
+
+.content .content-body .card:nth-of-type(3) .core .orange .text .progress{
+  background-color: rgb(245 158 11 / 20%);
+  height: 4px;
+}
+.content .content-body .card:nth-of-type(3) .core .orange .text .progress .progress-bar{
+  background-color: var(--orange-color);
+  width: 55%;
+  height: 4px;
+}
+
+.content .content-body .card:nth-of-type(3) .core .orange .text .progress  span{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: var(--orange-color);
+  color: white;
+  top:-38px;
+  right: -20px;
+}
+.content .content-body .card:nth-of-type(3) .core .orange .text .progress  span::before{
+  position: absolute;
+  content: '';
+  top:24px;
+  right: 12px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: var(--orange-color) transparent transparent transparent;
+}
+
+
+
+.content .content-body .card:nth-of-type(3) .core .green .text .progress{
+  background-color: rgb(34 197 94 / 20%);
+  height: 4px;
+}
+.content .content-body .card:nth-of-type(3) .core .green .text .progress .progress-bar{
+  background-color: var(--green-color);
+  width: 75%;
+  height: 4px;
+}
+
+.content .content-body .card:nth-of-type(3) .core .green .text .progress  span{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: var(--green-color);
+  color: white;
+  top:-38px;
+  right: -20px;
+}
+.content .content-body .card:nth-of-type(3) .core .green .text .progress  span::before{
+  position: absolute;
+  content: '';
+  top:24px;
+  right: 12px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: var(--green-color) transparent transparent transparent;
+}
+
+
 /* End Card 3 (Yearly Target)*/
 
 /* End content-body */
