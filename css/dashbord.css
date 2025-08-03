@@ -63,7 +63,7 @@
   width: 100%;
 }
 .content .content-body .card .core{
-  padding: 50px 0;
+  padding: 50px 10px;
 }
 .content .content-body .card  .core .info{
   display: flex;
@@ -375,6 +375,12 @@
   color: #999;
 }
 /* End Card 5 */
+
+/* Start Card 6 */
+.content .content-body .card:nth-of-type(6) .core{
+  
+} 
+/* End Card 6 */
 
 /* End content-body */
 
