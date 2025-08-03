@@ -377,9 +377,43 @@
 /* End Card 5 */
 
 /* Start Card 6 */
-.content .content-body .card:nth-of-type(6) .core{
-  
+.content .content-body .card:nth-of-type(6) .top {
+  background-color: white;
 } 
+.content .content-body .card:nth-of-type(6) .core .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+.content .content-body .card:nth-of-type(6) .core .row .info{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  gap: 2px;
+}
+.content .content-body .card:nth-of-type(6) .core .row .info h3{
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+.content .content-body .card:nth-of-type(6) .core .row .info p{
+  color: #999;
+  font-size: 13px;
+}
+.content .content-body .card:nth-of-type(6) .core .row i{
+  transition: 0.4s;
+}
+.content .content-body .card:nth-of-type(6) .core .row i:hover{
+  color: var(--red-color);
+}
+.content .content-body .card:nth-of-type(6) .core .row:nth-of-type(4){
+  background-color: rgb(0 0 0/ 1%);
+  color: #888;
+  
+}
+.content .content-body .card:nth-of-type(6) .core .row:nth-of-type(4) .info{
+  text-decoration: line-through;
+}
 /* End Card 6 */
 
 /* End content-body */
