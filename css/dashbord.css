@@ -416,6 +416,29 @@
 }
 /* End Card 6 */
 
+/* Start Card 7 */
+.content .content-body .card:nth-of-type(7) .core{
+  padding: 20px;
+}
+.content .content-body .card:nth-of-type(7) .core .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0;
+  margin-bottom: 40px;
+}
+.content .content-body .card:nth-of-type(7) .core .row:first-of-type{
+  color: #888;
+  font-size: 13px;
+}
+
+.content .content-body .card:nth-of-type(7) .core .row span{
+  padding: 10px;
+  background-color: rgb(0 0 0/ 20%);
+  border-radius: 5px;
+}
+/* End Card 7 */
+
 /* End content-body */
 
 /* End Dashbord Content */
