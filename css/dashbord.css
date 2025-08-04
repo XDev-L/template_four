@@ -434,10 +434,51 @@
 
 .content .content-body .card:nth-of-type(7) .core .row span{
   padding: 10px;
-  background-color: rgb(0 0 0/ 20%);
+  background-color: rgb(0 0 0/ 10%);
   border-radius: 5px;
 }
 /* End Card 7 */
+/* Start Card 8 */
+
+.content .content-body .card:nth-of-type(8) .core .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.content .content-body .card:nth-of-type(8) .core .row .image{
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.content .content-body .card:nth-of-type(8) .core .row .image img{
+  width: 40%;
+  margin-right: 10px;
+}
+.content .content-body .card:nth-of-type(8) .core .row .image .text h4{
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+@media (max-width:321px) {
+  .content .content-body .card:nth-of-type(8) .core .row .image .text h4{
+    font-size: 13px;
+  }
+}
+.content .content-body .card:nth-of-type(8) .core .row .image .text p{
+  color: #888;
+  font-size: 12px;
+}
+.content .content-body .card:nth-of-type(8) .core .row span{
+  padding: 10px;
+  background-color: rgb(0 0 0/ 10%);
+  border-radius: 5px;
+}
+@media (max-width:321px) {
+  .content .content-body .card:nth-of-type(8) .core .row span{
+    padding: 4px;
+  }
+}
+/* End Card 8 */
 /* End content-body */
 
 /* End Dashbord Content */
