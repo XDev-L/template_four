@@ -82,7 +82,7 @@ input[type="email"]:hover{
 }
 .page .content .content-body .card:nth-of-type(2) .card-body .form-grp
 div span{
-  padding: 5px;
+  padding: 7px;
   border-radius: 4px;
   background-color: #0075ff;
   color: white;
@@ -91,3 +91,22 @@ div span{
   margin-left: 10px;
 }
 /* End Card 2 */
+
+/* Start Card 3 */
+.page .content .content-body .card:nth-of-type(3) .card-body .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page .content .content-body .card:nth-of-type(3) .card-body .row .info h4{
+  font-size: 15px;
+}
+
+.page .content .content-body .card:nth-of-type(3) .card-body .row span{
+  padding: 7px;
+  background-color: #0075ff;
+  color: white;
+  border-radius: 4px;
+}
+/* End Card 3 */
