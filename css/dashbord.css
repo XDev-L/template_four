@@ -713,6 +713,10 @@
 }
 .content .content-body .card:nth-of-type(13) .core table tbody tr{
   border-bottom: 1px solid #ddd;
+  transition: 0.4s;
+}
+.content .content-body .card:nth-of-type(13) .core table tbody tr:hover{
+  background-color: rgb(255 0 0 /3%);
 }
 
 .content .content-body .card:nth-of-type(13) .core table tbody tr td{
