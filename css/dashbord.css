@@ -582,6 +582,34 @@
   color: #999;
 }
 /* End Card 10 */
+/* Start Card 11 */
+.content .content-body .card:nth-of-type(11) .core .info img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+} 
+.content .content-body .card:nth-of-type(11) .core .post{
+  padding: 10px;
+}
+.content .content-body .card:nth-of-type(11) .core .post p{
+  padding: 10px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.content .content-body .card:nth-of-type(11) .core .post div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #999;
+  font-size: 13px;
+}
+
+.content .content-body .card:nth-of-type(11) .core .post div i{
+  margin-right: 5px;
+}
+/* End Card 11 */
 /* End content-body */
 
 /* End Dashbord Content */
