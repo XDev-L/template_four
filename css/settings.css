@@ -1,0 +1,93 @@
+/* Start Card 1 */
+.page .content .content-body {
+  padding: 20px;
+}
+.page .content .content-body .card{
+  padding: 20px;
+  background-color: white;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+
+.page .content .content-body .card p{
+  color: #888;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.page .content .content-body .card .card-title{
+  margin-bottom: 10px;
+}
+
+.page .content .content-body .card .card-title h3{
+  font-size: 23px;
+  font-weight: normal;
+}
+
+
+.page .content .content-body .card .card-body h4{
+  font-weight: normal;
+}
+
+.page .content .content-body .card .card-body div{
+  margin-bottom: 20px;
+}
+.page .content .content-body .card .card-body textarea{
+  width: 98%;
+  height: 100px;
+  padding-left: 20px;
+  padding-top: 10px;
+  border-radius: 4px;
+}
+
+@media (max-width:320px) {
+ .page .content .content-body .card .card-body textarea{
+    padding-left: 10px;
+    padding-top: 5px;
+  }
+}
+
+/* End Card 1 */
+
+/* Start Card 2 */
+.page .content .content-body .card:nth-of-type(2) .card-body .form-grp{
+  display: flex;
+  flex-direction: column;
+}
+.page .content .content-body .card:nth-of-type(2) .card-body .form-grp
+label{
+  margin-bottom: 10px;
+  color: #888;
+}
+.page .content .content-body .card:nth-of-type(2) .card-body .form-grp
+input{
+  height: 40px;
+  padding-left: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.page .content .content-body .card:nth-of-type(2) .card-body .form-grp
+ div{
+  display: flex;
+  align-items: center;
+ }
+.page .content .content-body .card:nth-of-type(2) .card-body .form-grp
+input[type="email"]{
+  flex: 1;
+  background-color: #f0f4f8;
+}
+.page .content .content-body .card:nth-of-type(2) .card-body .form-grp
+input[type="email"]:hover{
+  cursor: not-allowed;
+}
+.page .content .content-body .card:nth-of-type(2) .card-body .form-grp
+div span{
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #0075ff;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+/* End Card 2 */
