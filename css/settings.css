@@ -110,3 +110,34 @@ div span{
   border-radius: 4px;
 }
 /* End Card 3 */
+
+/* Start Card 4 */
+.page .content .content-body .card:nth-of-type(4) .card-body .row{
+  display: flex;
+  align-items: center;
+} 
+
+.page .content .content-body .card:nth-of-type(4) .card-body .row i{
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  border-right: none;
+  color: #ddd;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+}
+.page .content .content-body .card:nth-of-type(4) .card-body .row input{
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  height: 32px;
+  padding-left: 10px;
+  flex: 1;
+}
+
+.page .content .content-body .card:nth-of-type(4) .card-body .row:focus-within i{
+  color: black;
+} 
+/* End Card 4 */
