@@ -479,6 +479,52 @@
   }
 }
 /* End Card 8 */
+/* Start Card 9 */
+.content .content-body .card:nth-of-type(9) .core ul{
+  position: relative;
+  padding: 0 20px;
+}
+.content .content-body .card:nth-of-type(9) .core ul::before{
+  position: absolute;
+  content: '';
+  left: 9px;
+  top: 0;
+  background-color: var(--blue-color);
+  width: 2px;
+  height: 100%;
+}
+.content .content-body .card:nth-of-type(9) .core ul li{
+  margin-bottom: 30px;
+  padding-left: 10px;
+  position: relative;
+}
+.content .content-body .card:nth-of-type(9) .core ul li::before{
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 0;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid white;
+  outline: 2px solid var(--blue-color);
+}
+.content .content-body .card:nth-of-type(9) .core ul li.done::before{
+  background-color: var(--blue-color);
+}
+.content .content-body .card:nth-of-type(9) .core ul li.current::before{
+  animation: popup 4s infinite linear;
+}
+@keyframes popup {
+  0%,30%,50%,70%,90%{
+    background-color: var(--blue-color);
+  }
+  20%,40%,60%,80%,100%{
+    background-color: white;
+  }
+}
+/* End Card 9 */
 /* End content-body */
 
 /* End Dashbord Content */
