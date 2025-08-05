@@ -610,6 +610,83 @@
   margin-right: 5px;
 }
 /* End Card 11 */
+/* Start Card 12 */
+.content .content-body .card:nth-of-type(12) .core .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding-right: 5px;
+}
+.content .content-body .card:nth-of-type(12) .core .row:nth-of-type(1){
+  background-color: rgb(29 161 242 / 20%);
+  color: #1da1f2;
+}
+
+.content .content-body .card:nth-of-type(12) .core .row:nth-of-type(2){
+  background-color: rgb(24 119 242 / 20%);  
+  color: #1da1f2;
+}
+
+.content .content-body .card:nth-of-type(12) .core .row:nth-of-type(3){
+  background-color: rgb(255 0 0 / 20%);
+  color: #ff0000;
+}
+
+.content .content-body .card:nth-of-type(12) .core .row:nth-of-type(4){
+  background-color: rgb(0 119 181 / 20%);
+  color: #0077b5;
+}
+
+.content .content-body .card:nth-of-type(12) .core .row div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .content-body .card:nth-of-type(12) .core .row div p{
+  font-size: 11px;
+}
+.content .content-body .card:nth-of-type(12) .core .row div i{
+  margin-right: 10px;
+  color: white;
+  width:50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content .content-body .card:nth-of-type(12) .core .row:nth-of-type(1) div i{
+  background-color: #1da1f2;
+}
+.content .content-body .card:nth-of-type(12) .core .row:nth-of-type(2) div i{
+  background-color: #1da1f2;
+}
+.content .content-body .card:nth-of-type(12) .core .row:nth-of-type(3) div i{
+  background-color: #ff0000;
+}
+.content .content-body .card:nth-of-type(12) .core .row:nth-of-type(4) div i{
+  background-color: #0077b5;
+}
+.content .content-body .card:nth-of-type(12) .core .row span{
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 11px;
+  color: white;
+}
+.content .content-body .card:nth-of-type(12) .core .row:nth-of-type(1) span{
+  background-color: #1da1f2;
+}
+.content .content-body .card:nth-of-type(12) .core .row:nth-of-type(2) span{
+  background-color: #1da1f2;
+}
+.content .content-body .card:nth-of-type(12) .core .row:nth-of-type(3) span{
+  background-color: #ff0000;
+}
+.content .content-body .card:nth-of-type(12) .core .row:nth-of-type(4) span{
+  background-color: #0077b5;
+}
+/* End Card 12 */
 /* End content-body */
 
 /* End Dashbord Content */
