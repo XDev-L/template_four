@@ -525,6 +525,63 @@
   }
 }
 /* End Card 9 */
+/* Start Card 10 */
+.content .content-body .card:nth-of-type(10) .core ul{
+  padding-left: 30px;
+}
+.content .content-body .card:nth-of-type(10) .core ul li{
+  position: relative;
+  padding-left: 20px;
+  border-left-width: 2px;
+  border-left-style: solid;
+  margin-bottom: 20px;
+}
+
+.content .content-body .card:nth-of-type(10) .core ul li::before{
+  position: absolute;
+  content: '';
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+.content .content-body .card:nth-of-type(10) .core ul li:nth-of-type(1)::before{
+  background-color: var(--blue-color);
+}
+
+.content .content-body .card:nth-of-type(10) .core ul li:nth-of-type(1){
+  border-left-color: var(--blue-color);
+}
+.content .content-body .card:nth-of-type(10) .core ul li:nth-of-type(2)::before{
+  background-color: var(--green-color);
+}
+.content .content-body .card:nth-of-type(10) .core ul li:nth-of-type(2){
+  border-left-color: var(--green-color);
+}
+.content .content-body .card:nth-of-type(10) .core ul li:nth-of-type(3)::before{
+  background-color: var(--orange-color);
+}
+.content .content-body .card:nth-of-type(10) .core ul li:nth-of-type(3){
+  border-left-color: var(--orange-color);
+}
+.content .content-body .card:nth-of-type(10) .core ul li:nth-of-type(4)::before{
+  background-color: var(--red-color);
+}
+.content .content-body .card:nth-of-type(10) .core ul li:nth-of-type(4){
+  border-left-color: var(--red-color);
+}
+
+.content .content-body .card:nth-of-type(10) .core ul li h4{
+  font-size: 13px;
+  font-weight: normal;
+}
+.content .content-body .card:nth-of-type(10) .core ul li p{
+  font-size: 11px;
+  color: #999;
+}
+/* End Card 10 */
 /* End content-body */
 
 /* End Dashbord Content */
