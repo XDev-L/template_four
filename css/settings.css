@@ -141,3 +141,20 @@ div span{
   color: black;
 } 
 /* End Card 4 */
+
+/* Start Card 5 */
+.page .content .content-body .card:nth-of-type(5) .card-body .row{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.page .content .content-body .card:nth-of-type(5) .card-body .row input{
+  margin-right: 7px;
+}
+
+.page .content .content-body .card:nth-of-type(5) .card-body .row p{
+  color: black;
+  font-size: 16px;
+}
+/* End Card 5 */
