@@ -92,3 +92,46 @@
   }
 }
 /* End General Info */
+
+
+/* Start footer-info */
+
+/* Start Skills */
+.footer-info{
+  display: flex;
+  align-items: center;
+}
+.footer-info .skills{
+  background-color: white;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 6px;
+}
+@media (max-width:768px) {
+.footer-info .skills{
+  text-align: center;
+}
+}
+.footer-info .skills .title{
+  padding: 10px;
+}
+.footer-info .skills ul{
+  padding: 10px;
+}
+.footer-info .skills ul li{
+  padding: 20px 0;
+}
+.footer-info .skills ul li:not(:last-of-type){
+  border-bottom: 1px solid #ddd;
+}
+.footer-info .skills ul li span{
+  padding: 8px;
+  background-color: rgb(0 0 0 /10%);
+  border-radius: 6px;
+  margin-right: 10px;
+  font-size: 12px;
+}
+/* End Skills */
+
+
+/* End footer-info */
