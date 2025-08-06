@@ -177,6 +177,22 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.footer-info .latest-activities-core .row .image >div>div h4,
+.footer-info .latest-activities-core .row .image >div>div p{
+  margin-bottom: 10px;
+}
+
+.footer-info .latest-activities-core .row .image >div>div span{
+  color: #999;
+  font-size: 12px;
+}
+
+
+.footer-info .latest-activities-core .row .image >div>div:nth-of-type(2){
+  font-size: 12px;
+  color: #999;
+}
 /* End latest-activities-core */
 
 
