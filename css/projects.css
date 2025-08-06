@@ -1,0 +1,75 @@
+.content-body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+  gap: 20px;
+}
+
+/* Start Card 1 */
+.content-body .card{
+  padding: 10px;
+  background-color: white;
+  border-radius: 6px;
+  margin: 10px;
+}
+.content-body .card .card-title{
+  margin-bottom: 20px;
+}
+
+.content-body .card .card-title p{
+  color: #999;
+  font-size: 13px;
+}
+.content-body .card .card-title p:first-of-type{
+  text-align: right;
+}
+.content-body .card .card-title h4{
+  margin-bottom: 10px;
+}
+.content-body .card .card-body .images{
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.content-body .card .card-body .images img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.content-body .card .card-body .images img:not(:first-of-type){
+  margin-left: -10px;
+}
+.content-body .card .card-body .tasks{
+  text-align: right;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+.content-body .card .card-body .tasks span{
+  padding: 7px;
+  background-color: rgb(0 0 0/ 10%);
+  margin-left: 14px;
+  border-radius: 6px;
+}
+.content-body .card .card-body .level-price{
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-body .card .card-body .level-price .progress{
+  width: 290px;
+  height: 6px;
+  background-color: rgb(0 0 0/ 10%);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.content-body .card .card-body .level-price .progress .progress-bar{
+  height: 6px;
+  background-color: red;
+}
+
+.content-body .card .card-body .level-price span{
+  color: #999;
+}
+/* End Card 1 */
