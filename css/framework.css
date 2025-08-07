@@ -5,28 +5,74 @@
 .align-center{
   align-items: center;
 }
+
+.justify-center{
+  justify-content: center;
+}
+.between-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.center-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* End Box */
 
-/* Start Padding + Margins */
+
+/* Start Position */
+.p-relative{
+  position: relative;
+}
+/* End Position */
+
+
+
+
+/* Start Padding */
 .p-10{
   padding: 10px;
 }
 .p-20{
   padding: 20px;
 }
-.m-20{
-  margin: 20px;
-}
-.mt-0{
-  margin-top: 0;
-}
+/* End Padding */
+
+
+
+
+/* Start Margings */
 .mb-10{
   margin-bottom: 10px;
+}
+.mb-50{
+  margin-bottom: 50px;
 }
 .ml-10{
   margin-left: 10px;
 }
-/* End Padding + Margins */
+/* End Margings */
+
+
+/* Start Fonts */
+.fs-14{
+  font-size: 14px;
+}
+.fs-19px{
+  font-size: 19px;
+}
+/* End Fonts */
+
+
+/* Start Text */
+.txt-c{
+  text-align: center;
+}
+/* End Text */
+
 
 /* Start Color */
 .bg-white{
@@ -35,22 +81,10 @@
 .c-black{
   color: black;
 }
+
 /* End Color */
 
-/* Start Position */
-.p-relative{
-  position: relative;
-}
-/* End Position */
 
-/* Start Fonts */
-.txt-c{
-  text-align: center;
-}
-.fs-14{
-  font-size: 14px;
-}
-/* End Fonts */
 
 /* Start Border */
 .rad-6{
