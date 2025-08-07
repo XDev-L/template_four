@@ -95,3 +95,46 @@ a{
 }
 
 /* End Sidebar */
+
+/* Start Head */
+.head .search::before {
+  font-family: var(--fa-style-family-classic);
+  content: "\f002";
+  font-weight: 900;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: var(--grey-color);
+}
+.head .search input{
+  padding-left: 30px;
+  width: 160px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  transition: 0.4s;
+}
+.head .search input:focus{
+  transition: 0.4s;
+  width: 180px;
+}
+.head .search input:focus::placeholder{
+  color: transparent;
+}
+.head .icons::before{
+  content: '';
+  position: absolute;
+  right: 35px;
+  top: -3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+
+}
+.head .icons img{
+  width: 30px;
+  height: 30px;
+}
+/* End Head */

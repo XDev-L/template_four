@@ -2,6 +2,9 @@
 .d-flex{
   display: flex;
 }
+.flex-1{
+  flex: 1;
+}
 .align-center{
   align-items: center;
 }
@@ -22,6 +25,12 @@
 
 /* End Box */
 
+
+/* Start Width */
+.w-full{
+  width: 100%;
+}
+/* End Width */
 
 /* Start Position */
 .p-relative{
@@ -89,5 +98,8 @@
 /* Start Border */
 .rad-6{
   border-radius: 6px;
+}
+.rounded{
+  border-radius: 50%;
 }
 /* End Border */
