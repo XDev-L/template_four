@@ -96,6 +96,12 @@ a{
 
 /* End Sidebar */
 
+/* Start Content */
+.content{
+  overflow: hidden;
+}
+/* End Content */
+
 /* Start Head */
 .head .search::before {
   font-family: var(--fa-style-family-classic);
@@ -122,19 +128,42 @@ a{
 .head .search input:focus::placeholder{
   color: transparent;
 }
-.head .icons::before{
+.head .icons .icon::before{
   content: '';
   position: absolute;
-  right: 35px;
+  right: -5px;
   top: -3px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background-color: red;
-
 }
 .head .icons img{
   width: 30px;
   height: 30px;
 }
 /* End Head */
+
+/* Start Content Title */
+.content h1{
+  margin: 20px 20px 40px;
+}
+.content h1::before,
+.content h1::after
+{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 3px;
+  border-radius: 7px;
+}
+.content h1::before{
+  width: 120px;
+  background-color: white;
+}
+.content h1::after{
+  width: 30px;
+  background-color: black;
+}
+/* End Content Title */
