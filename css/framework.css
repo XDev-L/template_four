@@ -132,6 +132,12 @@
 .bg-eee{
   background-color: #eee;
 }
+.bg-green{
+  background-color: var(--green-color);
+}
+.bg-orange{
+  background-color: var(--orange-color);
+}
 .c-black{
   color: black;
 }
@@ -140,6 +146,19 @@
 }
 .c-grey{
   color: var(--grey-color);
+}
+
+.c-blue{
+  color: var(--blue-color);
+}
+.c-eee{
+  color: #eee;
+}
+.c-green{
+  color: var(--green-color);
+}
+.c-orange{
+  color: var(--orange-color);
 }
 
 /* End Color */
