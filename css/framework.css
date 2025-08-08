@@ -1,4 +1,4 @@
-/* Start Box */
+/* Start Flex */
 .d-flex{
   display: flex;
 }
@@ -7,6 +7,9 @@
 }
 .align-center{
   align-items: center;
+}
+.space-between{
+  justify-content: space-between;
 }
 
 .justify-center{
@@ -23,12 +26,31 @@
   justify-content: center;
 }
 
-/* End Box */
+/* End Flex */
 
+/* Start Grid */
+.d-grid{
+  display: grid;
+}
+.gap-20{
+  gap: 20px;
+}
+/* End Grid */
+
+
+
+/* Start Block */
+.d-block{
+  display: block;
+}
+/* End Block */
 
 /* Start Width */
 .w-full{
   width: 100%;
+}
+.w-fit{
+  width: fit-content;
 }
 /* End Width */
 
@@ -54,8 +76,18 @@
 
 
 /* Start Margings */
+.my-20{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mt-10{
+  margin-top: 10px;
+}
 .mb-10{
   margin-bottom: 10px;
+}
+.mb-20{
+  margin-bottom: 20px;
 }
 .mb-50{
   margin-bottom: 50px;
@@ -87,8 +119,20 @@
 .bg-white{
   background-color: white;
 }
+.bg-blue{
+  background-color: var(--blue-color);
+}
+.bg-eee{
+  background-color: #eee;
+}
 .c-black{
   color: black;
+}
+.c-white{
+  color: white;
+}
+.c-grey{
+  color: var(--grey-color);
 }
 
 /* End Color */
@@ -98,6 +142,9 @@
 /* Start Border */
 .rad-6{
   border-radius: 6px;
+}
+.rad-10{
+  border-radius: 10px;
 }
 .rounded{
   border-radius: 50%;
