@@ -208,6 +208,11 @@ a{
     margin-right: 10px ;
   }
 }
+/* End Wrapper */
+/* Start Welcome */
+.welcome{
+  overflow: hidden;
+}
 .welcome .intro img{
   width: 170px;
 }
@@ -247,4 +252,18 @@ a{
     margin-top: 0;
   }
 }
-/* End Content Wrapper */
+/* End Welcome */
+
+
+/* Start Quick Draft */
+.quick-draft input:focus
+.quick-draft textarea:focus{
+  caret-color: var(--green-color);
+}
+.quick-draft textarea{
+  min-height: 100px;
+}
+.quick-draft button{
+  margin: 10px 10px 10px auto;
+}
+/* End Quick Draft */

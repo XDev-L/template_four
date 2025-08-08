@@ -76,12 +76,19 @@
 
 
 /* Start Margings */
+.my-10{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .my-20{
   margin-top: 20px;
   margin-bottom: 20px;
 }
 .mt-10{
   margin-top: 10px;
+}
+.mt-20{
+  margin-top: 20px;
 }
 .mb-10{
   margin-bottom: 10px;
@@ -148,5 +155,11 @@
 }
 .rounded{
   border-radius: 50%;
+}
+.b-none{
+  border: none;
+}
+.o-none{
+  outline: none;
 }
 /* End Border */
