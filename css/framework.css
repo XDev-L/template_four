@@ -5,6 +5,9 @@
 .flex-1{
   flex: 1;
 }
+.f-wrap{
+  flex-wrap: wrap;
+}
 .align-center{
   align-items: center;
 }
@@ -102,6 +105,9 @@
 .ml-10{
   margin-left: 10px;
 }
+.mr-10{
+  margin-right: 10px;
+}
 /* End Margings */
 
 
@@ -138,6 +144,9 @@
 .bg-orange{
   background-color: var(--orange-color);
 }
+.bg-grey{
+  background-color: rgb(136 136 136 / 50%);
+}
 .c-black{
   color: black;
 }
@@ -160,7 +169,9 @@
 .c-orange{
   color: var(--orange-color);
 }
-
+.c-red{
+  color: var(--red-color);
+}
 /* End Color */
 
 

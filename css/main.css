@@ -49,7 +49,6 @@ a{
 .btn-shape{
   padding: 5px;
   border-radius: 6px;
-  background-color: var(--blue-color);
   color: white;
 }
 
@@ -360,3 +359,57 @@ a{
   background-color: rgb(34 197 94 / 20%);
 }
 /* End Yearly Traget */
+
+
+/* Start tickets-stats */
+
+.tickets-stats .row{
+  border: 1px solid #ddd;
+  width: calc(50% - 10px);
+}
+@media (max-width:767px) {
+  .tickets-stats .row{
+    width: 100%;
+  }
+}
+/* End tickets-stats */
+
+/* Start Latest News */
+@media (max-width:767px) {
+  .latest-news .row{
+    flex-direction: column;
+  }
+}
+.latest-news .row img{
+  width: 80px;
+}
+@media (max-width:767px) {
+  .latest-news .row img{
+    margin-bottom: 10px;
+  }
+}
+.latest-news .row .btn-shape{
+  margin-left: auto;
+}
+@media (max-width:767px) {
+  .latest-news .row .btn-shape{
+    margin: 10px auto;
+  }
+}
+/* End Latest News */
+
+/* Start Latest Tasks */
+.latest-tasks  .row.drop > div{
+  text-decoration: line-through;
+  background-color: rgb(136 136 136 / 6%);
+  color: rgb(136 136 136 / 30%);
+}
+.latest-tasks .row:not(:last-of-type){
+  border-bottom: 1px solid #ddd;
+}
+@media (max-width:767px) {
+ .latest-tasks  .row.drop{
+  padding: 3px;
+ } 
+}
+/* End Latest Tasks */
