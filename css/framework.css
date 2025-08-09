@@ -1,3 +1,11 @@
+/* Start Card */
+.card{
+  background-color: white;
+  border-radius: 6px;
+  padding: 20px;
+}
+/* End Card */
+
 /* Start Flex */
 .d-flex{
   display: flex;
@@ -115,6 +123,9 @@
 .fs-14{
   font-size: 14px;
 }
+.fs-15{
+  font-size: 15px;
+}
 .fs-19px{
   font-size: 19px;
 }
@@ -146,6 +157,10 @@
 }
 .bg-grey{
   background-color: rgb(136 136 136 / 50%);
+}
+.bg-grey-light{
+  
+  background-color: rgb(136 136 136 / 30%);
 }
 .c-black{
   color: black;

@@ -399,10 +399,12 @@ a{
 /* End Latest News */
 
 /* Start Latest Tasks */
+.latest-tasks  .row.row:not(:last-of-type){
+  padding-bottom: 10px;
+}
 .latest-tasks  .row.drop > div{
   text-decoration: line-through;
-  background-color: rgb(136 136 136 / 6%);
-  color: rgb(136 136 136 / 30%);
+  opacity: 0.3;
 }
 .latest-tasks .row:not(:last-of-type){
   border-bottom: 1px solid #ddd;
